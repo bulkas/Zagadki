@@ -1,11 +1,11 @@
 #include "zagadki_Jakub.hpp"
 #include <iostream>
-
-void zag_Jakub()
+using namespace std;
+void zag_jakub()
 {
-    int wynik()
+    //int wynik;
     cout << "oto moja zagadka" <<endl;
-    std::cout << "oblicz"
+    std::cout << "oblicz";
               std::cout << "700+300*6=" <<std::endl;
     int obliczenie;
     cin >> obliczenie;
@@ -16,4 +16,4 @@ void zag_Jakub()
 
 }
 
-#endif // zagadki_Jakub
+

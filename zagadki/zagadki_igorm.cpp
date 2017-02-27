@@ -1,3 +1,5 @@
-#include "zagadki_igorm.cpp"
-void zagadki_igorm ();
-cout << "to jest moja zagadka" << endl;
+#include "zagadki_igorm.hpp"
+#include <iostream>
+void zagadki_igorm(){
+std::cout << "to jest moja zagadka" << std::endl;
+}

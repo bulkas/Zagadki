@@ -1,4 +1,4 @@
-#itdef zagadki_igorm_hpp
+#ifndef zagadki_igorm_hpp
 #define zagadki_igorm_hpp
 void zagadki_igorm ();
-#edif
+#endif // zagadki_igorm_hpp

@@ -20,17 +20,13 @@ int main()
     switch(opcja){
         case '1': zag_igork();
     break;
-        case '2': zag_igorm();
+        case '2': zagadki_igorm();
     break;
         case '3': zag_jakub();
     break;
         case '4': zag_oliwier();
     break;
-
-
     }
-
-
     return 0;
 }
 
