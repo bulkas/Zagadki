@@ -2,25 +2,25 @@
 #include <iostream>
 void zag_igork()
 {
-    float liczba;
+    int liczba;
 
     std::cout << "|TO|JEST|MOJA|ZAGADKA|" << std::endl;
     std::cout << "          |           " << std::endl;
     std::cout << "          |           " << std::endl;
-    std::cout << " m³otek i gwóŸdŸ kosztuj¹ 1,1 dolara,  " << std::endl;
-    std::cout << " a m³otek kosztuje o jednego dolara wiêcej od gwoŸdzia.  " << std::endl;
-    std::cout << " Ile kosztuje gwóŸdŸ? " << std::endl;
+    std::cout << " mlotek i gwozdz kosztuja 1,1 dolara,  " << std::endl;
+    std::cout << " a mlotek kosztuje o jednego dolara wiêcej od gwozdzia.  " << std::endl;
+    std::cout << " Ile centow kosztuje gwozdz? " << std::endl;
     std::cout << " ODPOWEIDZ " << std:: endl;
     std::cin >> liczba;
-    if ( liczba == 0,05)
-    {
-        std::cout << " DOBRZE !!! " << std::endl;
-    }
 
-    else
+
+
+   while ( liczba != 5 )
     {
-        std::cout << " ZLE !!! " << std:: endl;
+        std::cout << " ZLE .!!! " << std:: endl;
+        std::cin >> liczba;
     }
+        std::cout << " DOBRZE !!! " << std::endl;
 }
 
 
